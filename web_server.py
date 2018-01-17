@@ -17,5 +17,10 @@ def bye():
     return "<marquee>Bai</marquee>"
 
 
+@app.route("/start")
+def start():
+    return "<blink>Start here </blink>"
+
+
 if __name__ == "__main__":
     app.run()
